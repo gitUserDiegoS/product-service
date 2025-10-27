@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
+    username: ${USER_DB}
     url: jdbc:mysql://localhost:3306/ecommerce-db?useSSL=false&useUnicode=yes&characterEncoding=UTF-8&allowPublicKeyRetrieval=true&serverTimezone=UTC
-    password: raizDiego
+    password: ${PASS_DB}
   jpa:
     properties:
       hibernate:
@@ -20,8 +20,6 @@ security:
 
 whitelist:
   paths:
-    - "/api/v1/users/login"
-    - "/api/v1/users/register"
     - "/swagger-ui/**"
     - "/v3/api-docs/**"
 
