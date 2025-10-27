@@ -15,9 +15,15 @@ In this project, I applied the hexagonal and Clean Architecture approach. This a
 ## Installation
 
 1. Execute scripts database located in api user service https://github.com/gitUserDiegoS/ecommerce-user-service
+   1.1. Execute script in `scripts/sdscrits.sql` to create and populate initial records
+   1.2. Go to develop branch and run the application
+2. Environment Variables
+   2.1. Create a secret alphanumeric or with special characters, you could use the web page https://jwtsecretkeygenerator.com/es/ to generate a 256 bits (32+ chars) secret jwt
+   2.2. Set the following environment variable:
+   ```json
+   -JWT_SECRET       the secret value generated, use the same secret in each project, example: A-9&]h]=M7Cg1[(GP,Lp7a+ft|_{D-%!h)]1XRcGdCj
+   -JWT_EXPIRATION   the time expiration value in miliseconds, example of 1 hour: 3600000
 
-    1.1. Execute script in `scripts/sdscrits.sql` to create and populate initial records
-    1.2. Go to develop branch and run the application
 
 Url base de API: `http://localhost:8081`.
 
