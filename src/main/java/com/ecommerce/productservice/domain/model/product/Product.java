@@ -1,10 +1,9 @@
 package com.ecommerce.productservice.domain.model.product;
 
 import com.ecommerce.productservice.domain.model.productcategory.ProductCategory;
-import com.ecommerce.productservice.infrastructure.adapter.mysqldb.entity.ProductCategoryEntity;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
+
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

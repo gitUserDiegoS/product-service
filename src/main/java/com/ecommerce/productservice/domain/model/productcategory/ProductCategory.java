@@ -2,7 +2,7 @@ package com.ecommerce.productservice.domain.model.productcategory;
 
 import com.ecommerce.productservice.domain.model.product.Product;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
+
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

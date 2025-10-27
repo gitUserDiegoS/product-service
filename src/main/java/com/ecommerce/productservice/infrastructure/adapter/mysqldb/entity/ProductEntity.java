@@ -1,6 +1,6 @@
 package com.ecommerce.productservice.infrastructure.adapter.mysqldb.entity;
 
-import com.ecommerce.productservice.domain.model.productcategory.ProductCategory;
+
 import jakarta.persistence.*;
 import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
