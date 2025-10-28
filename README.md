@@ -26,7 +26,7 @@ In this project, I applied the hexagonal and Clean Architecture approach. This a
    -USER_DB          the username value from your database
    -PASS_DB          the password value from your database
 
-Url base de API: `http://localhost:8081`.
+Api Url base: `http://localhost:8082`.
 
 ## Relational model diagram
 
